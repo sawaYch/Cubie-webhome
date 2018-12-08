@@ -1,0 +1,2 @@
+#!/bin/bash
+aria2c --conf-path=/etc/conf.d/aria2c.conf --enable-rpc --rpc-listen-all -D

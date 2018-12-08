@@ -1,0 +1,5 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>	<dir>				<type>	<options>	<dump>	<pass>
+/dev/sda1	/var/share/data_drive 	ext4	defaults,rw,relatime,data=ordered 0 0

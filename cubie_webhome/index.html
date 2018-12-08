@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Core.cubie</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .jumbotron{
+            background-color:#BA68C8 !important;
+            color:white;
+        }
+        .col-sm-4{
+            color: #BA68C8;
+        }
+        .general{
+            background-color:  !important;
+            transition: background-color 0.3s ease-out;
+            color: #BA68C8;
+        }
+        .general:hover{
+            background-color: #f06292 !important;
+            color: #ffffff;
+	    border-width: 1px;
+	    border-color: #6A1B9A;
+        }
+        .col-sm-4{
+            transition: background-color 0.3s ease-out;
+        }
+        .col-sm-4:hover{
+            background-color: #BA68C8  !important;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>ლ(╹◡╹)ようこそ(╹◡╹)ლ</h1>
+  <p>Cubieboard x Arch Linux</p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+     <br>
+      <h3>Aria2c</h3>
+      <p>21-century awesome torrent downloading application</p>
+      <ul>
+          <li>Torrent download support</li>
+          <li>Magnet link support</li>
+          <li>Baidu cloud drive extract support</li>
+        </ul>
+        <p align="left">
+        <button type="button" class="btn general" onclick="location.href='http://core:81'">Aria2c WebUI</button>
+        </p>
+        <br>
+    </div>
+    <div class="col-sm-4">
+    <br>
+      <h3>Data Directory</h3>
+        <p>Data directory share to the LAN (SAMBA & HTTP)</p>
+        <ul>
+            <li>Aria2c's downloaded data</li>
+	    <li>port 82 : SD Card</li>
+            <li>port 83 : SATA HDD</li>
+        </ul>
+	  <p>
+         <button type="button" class="btn general" onclick="location.href='http://core:82'">Browse SD Card</button>
+         <button type="button" class="btn general" onclick="location.href='http://core:83'">Browse HDD</button>
+       </p>
+        <br>
+    </div>
+    <div class="col-sm-4">
+    <br>
+      <h3>Printing Service</h3>
+      <p>Printing service over LAN</p>
+    <ul>
+        <li>Management using web interface (CUPS)</li>
+        <li>USB Printer : HP Deskjet 1050 j410</li>
+    </ul>
+    <br>
+      <p align="left"><button type="button" class="btn general" onclick="location.href='http://core:631'">Goto CUPS</button></p>
+    <br>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+[1;34m
+  _________      ___.   .__          _____                .__     
+  \_   ___ \ __ _\_ |__ |__| ____   /  _  \_______   ____ |  |__  
+  /    \  \/|  |  \ __ \|  |/ __ \ /  /_\  \_  __ \_/ ___\|  |  \ 
+  \     \___|  |  / \_\ \  \  ___//    |    \  | \/\  \___|   Y  \
+   \______  /____/|___  /__|\___  >____|__  /__|    \___  >___|  /
+          \/          \/        \/        \/            \/     \/ 
+[0m
+
+[32m+-------------------------+--------------------------------------------------+[0m
+[32m|[0m   Files/Directory       [32m|[0m                 Description                      [32m|[0m
+[32m+-------------------------+--------------------------------------------------+[0m   
+[32m|[0m /usr/bin/aria-start     [32m|[0m Start aria2c, a awesome bt-downloader.           [32m|[0m   
+[32m|[0m /usr/bin/led            [32m|[0m Enable led on cubieboard - sdcard & hdd status.  [32m|[0m   
+[32m|[0m /usr/local/nginx/       [32m|[0m Nginx folder, /usr/local/nginx/sbin/nginx run.   [32m|[0m   
+[32m|[0m /var/share/data_drive   [32m|[0m HDD /dev/sda1 data disk, size ~ 500GiB.          [32m|[0m   
+[32m+-------------------------+--------------------------------------------------+[0m
+
+Default : smbd, nmbd, winbindd services are started (systemd)
