@@ -78,7 +78,7 @@ Place to `/etc/cups`
 
 ## Issue
 
-- __Q__: I connect 2.5 HDD to Cubieboard, but system can't show the drive.
+- __Q__: I connect 2.5 HDD to Cubieboard, but system can't show the drive.   
   __A__: It can be _Link Error_. If you can't see your drive using `fdisk` or `lsblk`, then check your boot log with `dmesg`, if it shows something like "_link is slow to respond_" and "_errno=-16_"  or "_errno=-32_", that means some problem occur of the link.
 
   You should make sure your SATA cable is workable first.
