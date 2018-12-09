@@ -4,6 +4,8 @@
 
 ## Configuration
 
+<img src="./cubieboard.png" width="200">
+
 ## Samba
 
 Since Samba is update to version `4.9.3`, we no longer require to use `smbd`, `nmbd` and `winbind` separately by `systemd`. Just calling command `sudo systemctl start smb` for starting Samba service. 
